@@ -1,0 +1,147 @@
+ .task-card {
+   text-decoration: none;
+   color: inherit;
+   display: block;
+ }
+
+ .round {
+   width: 40px;
+   height: 40px;
+   background: #f59e0b;
+   color: white;
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .ALL {
+   display: flex;
+   justify-content: space-evenly;
+   margin: 70px;
+   text-decoration: none;
+ }
+
+ .second {
+   display: flex;
+   flex-wrap: wrap;
+ }
+
+ a {
+   text-decoration: none !important;
+ }
+
+ .task-card {
+   width: 200px;
+   background-color: #fff;
+   border-radius: 8px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   padding: 20px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: 10px;
+
+ }
+
+ .task-content {
+   flex-grow: 1;
+   text-decoration: none;
+ }
+
+ .task-title {
+   font-size: 14px;
+   margin-bottom: 5px;
+   color: #333;
+   text-decoration: none;
+ }
+
+ .task-number {
+   font-size: 24px;
+   font-weight: bold;
+   margin-bottom: 5px;
+   color: #333;
+   text-decoration: none;
+ }
+
+ .task-stats {
+   font-size: 16px;
+   color: #777;
+   text-decoration: none;
+
+ }
+
+ .task-icon {
+   width: 30px;
+   height: 30px;
+   border-radius: 50%;
+   background-color: #1d4ed8;
+   color: #fff;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-weight: bold;
+   text-decoration: none;
+ }
+
+ .card-body {
+ 
+   background-color: white;
+   box-shadow: 0px 2px 5px black;
+   border-radius: 10px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 32px;
+  
+ }
+
+ .task-carddd {
+   /* height: 100; */
+   width: 260px;
+   border-radius: 10px;
+ }
+
+ /* .task-carddd h4{
+  padding-bottom: 10px !;
+  text-align: center;
+ } */
+ .task-carddd-card {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   gap: 90px;
+ }
+
+ .task-carddd-button {
+   width: 100%;
+   margin-top: 12px;
+   display: flex;
+   justify-content: space-between;
+ }
+
+ .task-carddd-button button {
+   height: 30px;
+   width: 150px;
+   border: 0;
+   border-radius: 5px;
+   box-shadow: 0px 1px 2px black;
+ }
+
+ .status-completed {
+   background-color: #a3f07d;
+ }
+
+ .status-in-progress {
+   background-color: yellow;
+ }
+
+ .status-Pending {
+   background-color: red;
+ }
+
+ .status-default {
+   background-color: gray;
+ }
